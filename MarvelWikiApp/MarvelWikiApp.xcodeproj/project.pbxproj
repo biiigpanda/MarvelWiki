@@ -99,6 +99,7 @@
 		1DC0D2D82B6ED8B100AFB7FC /* MarvelWikiApp */ = {
 			isa = PBXGroup;
 			children = (
+				1DC0D30A2B6EDB4D00AFB7FC /* HomeScreen */,
 				1DC0D2D92B6ED8B100AFB7FC /* AppDelegate.swift */,
 				1DC0D2DB2B6ED8B100AFB7FC /* SceneDelegate.swift */,
 				1DC0D2DD2B6ED8B100AFB7FC /* ViewController.swift */,
@@ -125,6 +126,45 @@
 				1DC0D2FC2B6ED8B500AFB7FC /* MarvelWikiAppUITestsLaunchTests.swift */,
 			);
 			path = MarvelWikiAppUITests;
+			sourceTree = "<group>";
+		};
+		1DC0D30A2B6EDB4D00AFB7FC /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1DC0D30E2B6EDC2E00AFB7FC /* HomeCordinator */,
+				1DC0D30D2B6EDC2400AFB7FC /* HomeModel */,
+				1DC0D30C2B6EDC1C00AFB7FC /* HomeViewModel */,
+				1DC0D30B2B6EDBD500AFB7FC /* HomeView */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		1DC0D30B2B6EDBD500AFB7FC /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		1DC0D30C2B6EDC1C00AFB7FC /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeViewModel;
+			sourceTree = "<group>";
+		};
+		1DC0D30D2B6EDC2400AFB7FC /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		1DC0D30E2B6EDC2E00AFB7FC /* HomeCordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeCordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
