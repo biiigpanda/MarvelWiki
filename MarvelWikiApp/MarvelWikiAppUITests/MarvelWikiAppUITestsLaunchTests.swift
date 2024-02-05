@@ -8,7 +8,6 @@
 import XCTest
 
 final class MarvelWikiAppUITestsLaunchTests: XCTestCase {
-
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
